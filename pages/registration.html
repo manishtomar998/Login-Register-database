@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>
+        Registration
+    </title>
+    <link rel="stylesheet" href="../css/registration.css">
+</head>
+
+<body>
+    <div id="last">
+        <div id="outer">
+            <div class="main">
+                <h1 class="backAll">JookeBox</h1>
+            </div>
+            <div class="main">
+                <div id="h2Col">
+                    <h2 class="backAll">Register</h2>
+                </div>
+                <div>
+                    <div>
+                        <form id="form" action="../registration.php" method="POST">
+                            <label for="name">Name</label>
+                            <input class="allInput" id="name" type="text" required placeholder="Enter name" name="name">
+                            <label for="regEmail">Email</label>
+                            <input class="allInput" id="regEmail" type="email" required placeholder="abc@xyz.com" name="regEmail">
+                            <label for="regPassword">Password</label>
+                            <input class="allInput" id="regPassword" type="password" required placeholder="Enter password" name="regPassword">
+                            <label for="address">Address</label>
+                            <input class="allInput" id="address" type="text" required placeholder="Enter address" name="address">
+                            <label for="phone">Phone</label>
+                            <input class="allInput" id="phone" type="number" required placeholder="9876543210" name="phone" onkeypress="_numberValidation(event)" onpaste="return false">
+                            
+    
+                            <button id="regBtn" type="submit">Register</button>
+                        </form>
+                    </div>
+                    <div class="backAll">
+                        <p>Already Registered?, <a href="../index.html">Login Here!</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../javaScript/registration.js"></script>
+</body>
+
+</html>

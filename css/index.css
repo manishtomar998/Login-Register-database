@@ -1,0 +1,84 @@
+*{
+    background-color: #659DBD;
+}
+
+#last{
+    display: flex;
+    justify-content: center;
+}
+#outer{
+    border: 4px solid black;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #DAAD86;
+    border-radius: 15px;
+}
+
+.backAll{
+    background-color: #DAAD86;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DAAD86;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+    border: 10px black;
+    background-color: #DAAD86;
+}
+
+label{
+    font-size: large;
+    background-color: #DAAD86;
+}
+
+#h2Col{
+    background-color: #DAAD86;
+}
+
+p{
+    background-color: #DAAD86;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+}
+a{
+    background-color: #DAAD86;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+}
+
+#email{
+    margin: 2%;
+    font-size: large;
+    background-color: #DAAD86;
+    border-radius: 5px;
+}
+
+#password{
+    margin: 2%;
+    font-size: large;
+    background-color: #DAAD86;
+    border-radius: 5px;
+}
+
+#btn{
+    color: black;
+    background-color: #8D8741;
+    margin: 8% 8%;
+    padding: 4% 20%;
+    border: 4% 4%;
+    font-size: large;
+    border-radius: 10px;
+}
